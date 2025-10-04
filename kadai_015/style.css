@@ -1,0 +1,37 @@
+body {
+  font-family: "Arial", "Meiryo", sans-serif;
+}
+.decoration {
+  /* ここにCSSを書いていきます */
+  font-size: 20px;
+}
+.blue {
+ font-color: skyblue;
+}
+.pink {
+ font-color: rgb(255, 192, 203)
+}
+
+h1 {
+  font-family: 'Josefin Sans', sans-serif; /* フォントの指定 */
+  font-size: 2em; /* ルート要素の2倍のサイズ */
+  letter-spacing: 1.2em; /* 文字サイズの1.2倍の文字間隔 */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 影の指定 (例: 左右2px, 下2px, ぼかし4px, 黒色) */
+  border-bottom: 3px solid rgb(115, 115, 114); /* 3pxの赤色実線 */
+  text-decoration: none; /* その他装飾の削除 (もしあれば) */
+}
+/* 全体を中央寄せ */
+body {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* #basic 内の p 要素を太字 */
+#basic p {
+  font-weight: bold;
+}
+
+/* それ以外の p は通常の太さ */
+body p {
+  font-weight: normal;
+}
